@@ -1,5 +1,3 @@
-
-```markdown
 # 基于 One API + LobeChat 搭建私有化 AI 生产力工作站
 
 > **运维笔记**：本指南详细介绍了如何在 Ubuntu 24.04 环境下，通过 Docker 快速构建一套集“多模型中转管理”与“高级智能体对话”于一体的私有化 AI 平台。
@@ -101,5 +99,5 @@ docker run -d \
 
 * **访问授权**：在 LobeChat 启动命令中增加 `-e ACCESS_CODE=你的密码`，为前端添加访问控制。
 * **HTTPS 建议**：生产环境下建议在宿主机使用 Nginx 或 Caddy 进行反向代理，并配置 SSL 证书。
-```
+
 
